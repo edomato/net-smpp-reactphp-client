@@ -1,0 +1,22 @@
+{
+    "name": "edomato/net-smpp-reactphp-client",
+    "description": "ReactPHP Client for SMPP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernesto Domato",
+            "email": "edomato@gmail.com",
+            "homepage": "https://github.com/edomato",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "edomato/net-smpp": "^0.0.1",
+        "react/socket": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "edomato\\Net\\Smpp\\Client\\React\\": "src"
+        }
+    }
+}
