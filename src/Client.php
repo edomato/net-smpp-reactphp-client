@@ -255,4 +255,9 @@ class Client extends EventEmitter
             $this->stream->write($response);
         }
     }
+
+    public function closeConnection()
+    {
+        $this->stream->close();
+    }
 }
